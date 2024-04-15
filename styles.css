@@ -147,7 +147,7 @@ ul {
 /* Hero section */
 .hero-section {
     padding: 272px 0px;
-    background-image: url('../images/hero-section-background.jpg');
+    background-image: url('./images/hero-section-background.jpg');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -418,7 +418,7 @@ ul {
 }
 
 .footer {
-    background-image: url('../images/footer-background.png');
+    background-image: url('./images/footer-background.png');
     background-color: var(--color-primary-dark);
     background-repeat: no-repeat;
     background-size: cover;
