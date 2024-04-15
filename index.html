@@ -67,6 +67,7 @@
               </p>
             </div>
             <img
+              class="tradition-photo"
               src="images/men-with-bread.jpg"
               alt="Чоловік пекар дивиться на батони із посмішкою"
             />
@@ -114,6 +115,13 @@
       <section class="section" id="formats-section">
         <div class="container">
           <h2 class="formats-title section-title centered">Формати</h2>
+          <!-- buttons -->
+          <button class="carousel-button" type="button">
+            <svg width="16" height="16">
+              <use href="./images/icons.svg#icon-arrow"></use>
+            </svg>
+          </button>
+
           <ul class="formats-list">
             <li class="formats-item">
               <article class="format-card">
@@ -151,6 +159,12 @@
               </article>
             </li>
           </ul>
+
+          <button class="carousel-button" type="button">
+            <svg width="16" height="16">
+              <use href="./images/icons.svg#icon-arrow"></use>
+            </svg>
+          </button>
         </div>
       </section>
       <section class="section" id="contacts-section">
@@ -205,17 +219,21 @@
             </li>
             <li>
               <a href="#">
-                <!-- facebook icon-->
+                <svg class="adress-icon" width="32" heigh="32">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
               </a>
               <a href="#">
-                <!-- insta icon-->
+                <svg class="adress-icon" width="32" heigh="32">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
               </a>
             </li>
           </ul>
         </address>
-        <a class="address-link" href="#" target="_blank"
-          >Політика конфіденційності</a
-        >
+        <a class="address-link" href="#" target="_blank">
+          Політика конфіденційності
+        </a>
         <p class="address-copyrigt">&copy; 2022 Дані захищені</p>
       </div>
     </footer>
