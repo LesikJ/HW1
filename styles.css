@@ -418,8 +418,8 @@ ul {
 }
 
 .footer {
-    background-image: url('./images/footer-background.png');
     background-color: var(--color-primary-dark);
+    background-image: url('./images/footer-background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
