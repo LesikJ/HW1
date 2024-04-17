@@ -457,6 +457,7 @@ ul {
     font-size: 16px;
     font-weight: 300;
     text-decoration: none;
+    transition: color .3s;
 }
 
 .address-link:hover {
@@ -466,6 +467,7 @@ ul {
 .adress-icon {
     fill: var(--color-primary-light);  /*  'fill' use to add color for icons */
     /* stroke: red;  use to add обводку */
+    transition: fill 0.3s;
 }
 
 .adress-icon:hover {
