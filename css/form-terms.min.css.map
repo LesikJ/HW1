@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,WAAW,AAAC,CACR,MAAM,CAAE,MAAM,CACd,SAAS,CAAE,KAAK,CAChB,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,CAChB,UAAU,CAAE,MAAM,CAMrB,AAJI,AAAD,iBAAO,AAAC,CACJ,KAAK,CAAE,yBAAyB,CAChC,qBAAqB,CAAE,GAAG,CAC7B",
-    "sources": [
-        "../scss/components/form-terms.scss"
-    ],
-    "names": [],
-    "file": "form-terms.min.css"
-}
