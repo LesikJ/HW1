@@ -3,21 +3,61 @@
 
     &__title {
         margin-bottom: 16px;
+        text-align: center;
+
+        @media screen and (min-width: $bp-tablet) {
+            text-align: start;
+        }
+    }
+
+    &__paragraph{
+        text-align: center;
+        font-size: 14px;
+        color: var(--color-brand);
+
+        @media screen and (min-width: $bp-tablet) {
+            text-align: start;
+            font-weight: 400;
+            font-size: 18px;
+        }
     }
 
     &__container {
         display: flex;
-        gap: 32px;
+        flex-direction: column;
+        gap: 24px;
+
+        @media screen and (min-width: $bp-tablet) {
+            flex-direction: row;
+            gap: 32px;
+        }
     }
 
     &__form-field {
-        margin-bottom: 24px;
+        margin-bottom: 16px;
+
+        @media screen and (min-width: $bp-tablet) {
+            margin-bottom: 24px;
+        }
     }
 
     &__map {
         flex-shrink: 0;
+        height: 176px;
+        margin: 0 -24px;
         border: 0;
         border-radius: 16px;
+
+        @media screen and (min-width: $bp-tablet) {
+            margin: auto;
+            width: 320px;
+            height: 500px;
+        }
+
+        @media screen and (min-width: $bp-desktop) {
+            width: 600px;
+            height: 595px;
+        }
     }
 
     &__button {
